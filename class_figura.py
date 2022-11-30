@@ -32,7 +32,7 @@ class Bolillas:
         self.vx = vx
         self.vy = vy
     
-    def movimiento(self, xmax, ymax): #xmax es el límite de la pantalla
+    def move(self, xmax, ymax): #xmax es el límite de la pantalla
         self.pos_x += self.vx
         self.pos_y += self.vy
         
