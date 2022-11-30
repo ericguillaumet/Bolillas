@@ -2,7 +2,7 @@ import pygame as pg
     
 class Figura:
 
-    def __init__(self, pos_x, pos_y, w = 20, h = 20, color = (255, 255, 255), vx = 1, vy = 1, radio = 20, figura):
+    def __init__(self, pos_x, pos_y, w = 20, h = 20, color = (255, 255, 255), vx = 1, vy = 1, radio = 20): #figura)
         self.pos_x = pos_x
         self.pos_y = pos_y
         self.w = w
@@ -11,7 +11,8 @@ class Figura:
         self.vx = vx
         self.vy = vy
         self.radio = radio
-
+        
+        #self.figura = figura
         #if figura == circulo
         #if figura == rect
 
